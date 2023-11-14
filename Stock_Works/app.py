@@ -1,10 +1,9 @@
 from flask import Flask, request
 from flask_cors import CORS
-
 from Custom_Input import function_test
 
-app = Flask(__name__)
 
+app = Flask(__name__)
 CORS(app)
 
 
